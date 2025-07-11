@@ -1,0 +1,15 @@
+# Python venv
+server/venv/
+
+# Env variables
+*.env
+
+# Node modules
+client/node_modules/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
