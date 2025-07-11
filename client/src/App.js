@@ -16,7 +16,25 @@ function App() {
     <div style={{ textAlign: "center", marginTop: "4rem" }}>
       <h1>🎧 Welcome to Feelify</h1>
       <p>Discover playlists that match your mood.</p>
-      <button onClick={login}>Login with Spotify</button>
+      <button
+        onClick={login}
+        style={{
+          backgroundColor: "#1DB954",
+          color: "white",
+          padding: "12px 24px",
+          border: "none",
+          borderRadius: "24px",
+          fontSize: "16px",
+          cursor: "pointer",
+          fontWeight: "bold",
+          marginTop: "20px",
+          transition: "background-color 0.3s"
+        }}
+        onMouseOver={(e) => (e.target.style.backgroundColor = "#1ed760")}
+        onMouseOut={(e) => (e.target.style.backgroundColor = "#1DB954")}
+      >
+        Login with Spotify
+      </button>
     </div>
   );
 }
