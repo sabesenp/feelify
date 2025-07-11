@@ -1,16 +1,5 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div style={{ textAlign: "center", marginTop: "4rem" }}>
-      <h1>🎧 Welcome to Feelify</h1>
-      <p>Discover playlists that match your mood.</p>
-    </div>
-  );
-}
-
-export default App;
-
 const CLIENT_ID = "1f59af9e45e0404d81a89170df09f6b8";
 const REDIRECT_URI = "https://feelify-tan.vercel.app/";
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
@@ -31,3 +20,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
